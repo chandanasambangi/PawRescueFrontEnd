@@ -1,0 +1,146 @@
+/* * {
+    box-sizing: border-box;
+  }
+  
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  .flex-item-left {
+    background-color: #f1f1f1;
+    padding: 10px;
+    flex: 50%;
+  }
+  
+  .flex-item-right {
+    background-color: dodgerblue;
+    padding: 10px;
+    flex: 50%;
+  }
+  
+  
+  @media (max-width: 800px) {
+    .flex-item-right, .flex-item-left {
+      flex: 100%;
+    }
+  } */
+  /* .vf{
+    display: flex;
+    border: 1px;
+    border-color: black;
+    border-radius: 10px;
+} */
+/* .vi{
+  display: flex;
+  background-image: url("https://t4.ftcdn.net/jpg/03/11/09/07/240_F_311090718_1RIvZ70QPCtKOyMLFdbhUWy2kzHte8qW.jpg");
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 150px;
+  height: 300x;
+  padding: 3em;
+  margin: 3em;
+} */
+
+.product-details-container {
+  padding: 2px 16px;
+}
+
+.product-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.vf{
+  display: flex;
+	background-color:white;
+}
+.flex0{
+  padding: 20px;
+	margin: 20px;
+}
+.flex1{
+	/* display: flex; */
+	background-image: url("https://img.freepik.com/free-vector/people-volunteering-donating-money_53876-66112.jpg?size=626&ext=jpg&ga=GA1.2.22133725.1664964496");
+	padding: 30px;
+	margin: 10px;
+	flex : 40%;
+	height:300px;
+	/* justify-content: center; */
+	/* align-items: center; */
+	background-size: cover;
+	align-self: flex-end;
+	/* flex-direction: column; */
+	text-align: end;
+}
+.flex2{
+	/* display: flex; */
+	background-image: url("https://img.freepik.com/free-vector/pet-store-animal-shelter-man-taking-puppy-from-cage-buying-adopting-dog-volunteers-helping-choose-homeless-animal-adoption_74855-8527.jpg?size=626&ext=jpg&ga=GA1.2.22133725.1664964496");
+	/* background-image: url("https://t3.ftcdn.net/jpg/03/28/14/08/240_F_328140803_amVpJ8EpS7irNToFKb9qhJE5mNuJUchv.jpg"); */
+  padding: 30px;
+	margin: 10px;
+	flex : 40%;
+	height:300px;
+	/* justify-content: center; */
+	/* align-items: center; */
+	background-size: cover;
+	align-self: flex-end;
+	/* flex-direction: column; */
+	text-align: end;
+}
+.flex21{
+	/* display: flex; */
+	/* background-image: url("https://img.freepik.com/free-vector/adopt-pet-concept_23-2148523582.jpg?size=338&ext=jpg&ga=GA1.2.22133725.1664964496"); */
+	padding: 0px; 
+	margin: 10px;
+	flex : 40%;
+	height:40px;
+	/* justify-content: center; */
+	/* align-items: center; */
+	background-size: cover;
+	/* align-self: flex-end; */
+	/* flex-direction: column; */
+	text-align: end;
+  border: 1px;
+  border: 1px;
+    border-color: black;
+    border-radius: 10px;
+    /* background-color: aqua; */
+}
+.flex11{
+	/* display: flex; */
+	/* background-image: url("https://img.freepik.com/free-vector/adopt-pet-concept_23-2148523582.jpg?size=338&ext=jpg&ga=GA1.2.22133725.1664964496"); */
+	padding: 0px; 
+	margin: 10px;
+	flex : 40%;
+	height:40px;
+	justify-content: center; 
+	 align-items: center;
+/*	background-size: cover;
+	align-self: flex-end;
+	/* flex-direction: column; */
+	/* text-align: end; */
+  border: 1px;
+  border: 1px;
+    border-color: black;
+    border-radius: 10px;
+    /* background-color: aqua; */
+}
+.btnn {
+  border:none;
+  margin-left: 20px;
+  height: 33px;
+  width: 120px;
+    color:white;
+  background-color:black;
+    cursor: pointer;
+  }
+.btn-smn {
+  padding: 6px 10px;
+  vertical-align: middle;
+}
+.upperflex{
+  height:20px;
+}
